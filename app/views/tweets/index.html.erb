@@ -1,0 +1,17 @@
+<div class="contents row">
+  <% @tweets.each do |tweet| %>
+    <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+      <p><%= tweet.text %></p>
+      <span class="name">
+        <%= tweet.name %>
+      </span>
+    </div>
+  <% end %>
+  <%= "puts代わりに
+  System.out.println();
+  を使う
+  コメントアウトは//
+  処理を記述したら必ず最後に;を付ける" %>
+  </p>
+  <%= "文字列や数値という言葉で値の種類を説明してきましたが、これらは「データ型」と呼ばれます。まずは下図で文字列と整数のデータ型を覚えましょう。Stringは文字の並び、intは整数(integer)を意味する英語です。"%>
+</div>
